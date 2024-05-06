@@ -1,6 +1,5 @@
 # Importing the Libraries which we are using for Data Visualization
 
-
 import pandas as pd   # pandas is used for data manipulation and analysis
 import matplotlib.pyplot as plt   # matplotlib is used to create static, interactive, and animated visualizations 
 import seaborn as sns   # seaborn is provides a high-level interface for drawing attractive statistical graphics
@@ -10,7 +9,6 @@ from sklearn.cluster import KMeans   # machine learning library
 df = pd.read_csv('transaction_data.csv')
 
 # Data preprocessing
-
 #check for null values in the data
 df.isna().sum()   
 
@@ -25,7 +23,6 @@ df.shape
 
 #to view the data type 
 df.info()
-
 
 # Exploratory Data Analysis (EDA)
 # Sales analysis
